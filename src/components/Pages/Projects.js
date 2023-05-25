@@ -21,7 +21,7 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: data.projects.pxToRem,
+      title: data.projects.todoList,
       link: "https://github.com/aniketnimkar/to-do-App",
       desc: "A todo app project is a software application that helps users manage their tasks and to-do lists. The app typically allows users to create tasks, set due dates and priorities, categorize tasks, and mark tasks as completed when they are finished.",
       tech: ["JavaScript", "HTML", "CSS", "Git"],
