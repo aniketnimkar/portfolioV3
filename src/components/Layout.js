@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Header,
-  Home,
-  About,
-  Experience,
-  Projects,
-  Contact,
-} from "../components";
+import { Header, Home, About, Projects, Contact } from "../components";
 
 export default function Layout() {
   return (
@@ -14,7 +7,6 @@ export default function Layout() {
       <Header />
       <Home />
       <About />
-      <Experience />
       <Projects />
       <Contact />
     </>

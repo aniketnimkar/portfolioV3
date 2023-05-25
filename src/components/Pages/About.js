@@ -6,15 +6,15 @@ import data from "../../Data/Data.json";
 export default function About() {
   const skills = [
     "JavaScript (ES6+)",
-    "TypeScript",
+    "BootStrap",
     "React",
     "Redux",
-    "JQuery",
+    "Tailwind",
     "HTML",
     "CSS/Sass",
     "Git",
-    "Figma",
-    "Sketch",
+    "Windows/mac",
+    "Postman",
   ];
 
   return (

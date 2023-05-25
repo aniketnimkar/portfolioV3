@@ -20,18 +20,18 @@ export default function Header() {
       name: data.about.aboutTitle,
       path: "/#about",
     },
+    // {
+    //   id: 1,
+    //   name: data.experience.experienceTitle,
+    //   path: "/#experience",
+    // },
     {
       id: 1,
-      name: data.experience.experienceTitle,
-      path: "/#experience",
-    },
-    {
-      id: 2,
       name: data.projects.projectsTitle,
       path: "/#projects",
     },
     {
-      id: 3,
+      id: 2,
       name: data.contact.contactTitle,
       path: "/#contact",
     },
@@ -76,7 +76,11 @@ export default function Header() {
           );
         })}
         <button className="font-mono text-sm bg-blue-600 hover:bg-blue-700 rounded-lg">
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://drive.google.com/file/d/1N4hmS1wbGexBd2f9pA4UR0h4lbTcReer/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {data.resume}
           </a>
         </button>
@@ -145,7 +149,7 @@ export default function Header() {
                     })}
                     <button className="font-mono bg-blue-600 hover:bg-blue-700 rounded-lg">
                       <a
-                        href="/resume.pdf"
+                        href="/public/resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

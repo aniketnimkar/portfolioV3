@@ -9,12 +9,12 @@ export default function Contact() {
     {
       id: 0,
       icon: <Github />,
-      href: "https://www.github.com/abhiapatel",
+      href: "https://github.com/aniketnimkar",
     },
     {
       id: 1,
       icon: <Mail />,
-      href: "mailto:abhiashobhashana@gmail.com",
+      href: "mailto:aniketnimkar88@gmail.com",
     },
   ];
   return (
