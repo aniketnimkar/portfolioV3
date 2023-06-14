@@ -1,7 +1,7 @@
 {
   "name": "v3",
   "version": "0.1.0",
-  "author": "Abhi Shobhashana",
+  "author": "Aniket Nimkar",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.13",
