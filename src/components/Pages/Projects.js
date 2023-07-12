@@ -55,13 +55,13 @@ export default function Projects() {
       desc: "A todo app project is a software application that helps users manage their tasks and to-do lists. The app typically allows users to create tasks, set due dates and priorities, categorize tasks, and mark tasks as completed when they are finished.",
       tech: ["JavaScript", "HTML", "CSS", "Git"],
     },
-    // {
-    //   id: 4,
-    //   title: data.projects.pxToRem,
-    //   link: "https://www.github.com/abhiapatel/px-to-rem",
-    //   desc: "PX to REM Converter converts pixels to the CSS unit REM. The conversion is based on the default font-size of 16px pixel.",
-    //   tech: ["JavaScript", "React", "React Router", "Tailwind CSS"],
-    // },
+    {
+      id: 4,
+      title: data.projects.weather,
+      link: "https://www.github.com/abhiapatel/px-to-rem",
+      desc: "A weather web app is a type of web application that allows users to get information about the weather in real time. These apps typically use APIs (Application Programming Interfaces) to retrieve weather data from the Open weather map.",
+      tech: ["HTML", "CSS", "JavaScript", "API", "Netlify", "Github"],
+    },
   ];
 
   return (
