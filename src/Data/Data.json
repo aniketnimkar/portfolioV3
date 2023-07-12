@@ -23,10 +23,11 @@
     "frontDev": "Front End Developer"
   },
   "projects": {
-    "projectsTitle": "projects",
-    "reactTemplate": "React Template",
-    "pxToRem": "Px To Rem Converter",
-    "todoList": "To-do list Web App"
+    "portfolioWebsite": "portfolio website",
+    "foodBytes": "Food Bytes",
+    "youtube": "YouTube Clone",
+    "todoList": "To-do list Web App",
+    "pxToRem": "Px To Rem Converter"
   },
   "contact": {
     "contactTitle": "contact",
