@@ -20,11 +20,6 @@ export default function Header() {
       name: data.about.aboutTitle,
       path: "/#about",
     },
-    // {
-    //   id: 1,
-    //   name: data.experience.experienceTitle,
-    //   path: "/#experience",
-    // },
     {
       id: 1,
       name: data.projects.projectsTitle,
@@ -62,7 +57,7 @@ export default function Header() {
           <Logo height="1.5rem" width="1.5rem" />
         </div>
       </div>
-      <div className="hidden lg:flex md:items-center gap-6 light-grey sm:items-center gap-4 light-grey">
+      <div className="hidden lg:flex md:items-center gap-6 light-grey sm:items-center light-grey">
         {navs.map((nav) => {
           return (
             <Link
